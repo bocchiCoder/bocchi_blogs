@@ -1,206 +1,535 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>我的博客创建 | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="我的博客创建">
+    
+    <title>我的个人博客创建 - Hexo</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="##引言该文章是个人博客的创建的叙述,旨在为想要创建个人博客的友友们提供一些方法和思绪并且记录一下自己博客的搭建过程方便日后进行回顾 ####写博客的好处有道是”学而不思则罔,思而不学则殆”,对于自己学到的东西如果没有经常回忆和复习就容易遗忘。所以通过博客作为载体,记录下平时学习到的东西,不仅可以帮助自己时常温习并进行技术上的一些沉淀,而且通过文章的传播也有助于知识的分享。 ####使用工具以及环">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的个人博客创建">
 <meta property="og:url" content="http://example.com/2023/05/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="##引言该文章是个人博客的创建的叙述,旨在为想要创建个人博客的友友们提供一些方法和思绪并且记录一下自己博客的搭建过程方便日后进行回顾 ####写博客的好处有道是”学而不思则罔,思而不学则殆”,对于自己学到的东西如果没有经常回忆和复习就容易遗忘。所以通过博客作为载体,记录下平时学习到的东西,不仅可以帮助自己时常温习并进行技术上的一些沉淀,而且通过文章的传播也有助于知识的分享。 ####使用工具以及环">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-17-16-55.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-19-20-24.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-19-45-26.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-19-49-42.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-19-59-08.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-20-00-38.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-20-01-04.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-20-04-13.png">
+<meta property="og:image" content="http://example.com/images/5-12/2023-05-12-20-05-32.png">
 <meta property="article:published_time" content="2023-05-11T10:31:13.000Z">
-<meta property="article:modified_time" content="2023-05-11T10:31:13.961Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:modified_time" content="2023-05-12T12:32:24.957Z">
+<meta property="article:author" content="Lingyu Yang">
+<meta property="article:tag" content="知识分享">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+<meta name="twitter:image" content="http://example.com/images/5-12/2023-05-12-17-16-55.png">
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+<link rel="stylesheet" href="/lib/fancybox/fancybox.css">
+<link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
-  
-  
-<link rel="stylesheet" href="/css/style.css">
 
-  
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1683895312921">
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/css/style.css?v=1683895312921">
 
-  
+    
+        
+            <link rel="stylesheet" href="/custom.css?v=1683895312921">
+        
+    
+
+    
+<script src="/lib/mdui_043tiny/mdui.js" async></script>
+<script src="/lib/fancybox/fancybox.umd.js" async></script>
+
+
+    <script async src="/js/app.js?v=1683895312921"></script>
+    
+     
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4D4ZJ9G024"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+
+  gtag("config", "G-4D4ZJ9G024");
+</script>
+
 <meta name="generator" content="Hexo 6.3.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+<body class="mdui-drawer-body-left">
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" 
+            style="background-image: url(https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png)"
+        ></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/" title="Lingyu Yang" class="mdui-btn mdui-btn-icon"><img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="Lingyu Yang"></a>
+            </div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="Lingyu Yang">
+            <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="Lingyu Yang" alt="Lingyu Yang">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>Articles</span>7</div>
+        <div><span>Tags</span>1</div>
+        <div><span>Categories</span>0</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
         
-          <a class="main-nav-link" href="/">Home</a>
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/archive.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
         
-      </nav>
-      <nav id="sub-nav">
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/PY.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/donate.html" title="给我赞助">
+            <i class="mdui-list-item-icon nexmoefont icon-coffee"></i>
+            <div class="mdui-list-item-content">
+                给我赞助
+            </div>
+        </a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/about.html" title="关于博主">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博主
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+        
+            
+            <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+         
+            <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com" onsubmit="return search();">
+                <label><input id="search_value" name="q" type="search" placeholder="Search"></label>
+            </form>
+         
+    </div>
+</div>
+
+
+
+
+        
+            
+            <div class="nexmoe-widget-wrap">
+	<div class="nexmoe-widget nexmoe-social">
+		<a
+			class="mdui-ripple"
+			href="https://jq.qq.com/?_wv=1027&k=5CfKHun"
+			target="_blank"
+			mdui-tooltip="{content: 'QQ群'}"
+			style="
+				color: rgb(249, 174, 8);
+				background-color: rgba(249, 174, 8, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-QQ"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://space.bilibili.com/20238211"
+			target="_blank"
+			mdui-tooltip="{content: '哔哩哔哩'}"
+			style="
+				color: rgb(231, 106, 141);
+				background-color: rgba(231, 106, 141, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-bilibili"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://github.com/nexmoe/"
+			target="_blank"
+			mdui-tooltip="{content: 'GitHub'}"
+			style="
+				color: rgb(25, 23, 23);
+				background-color: rgba(25, 23, 23, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-github"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://www.zhihu.com/people/nexmoe"
+			target="_blank"
+			mdui-tooltip="{content: '知乎'}"
+			style="
+				color: rgb(30, 136, 229);
+				background-color: rgba(30, 136, 229, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-zhihu"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://twitter.com/nexmoe"
+			target="_blank"
+			mdui-tooltip="{content: 'Twitter'}"
+			style="
+				color: rgb(59, 151, 239);
+				background-color: rgba(59, 151, 239, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-twitter"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://nexmoe.com/atom.xml"
+			target="_blank"
+			mdui-tooltip="{content: 'RSS'}"
+			style="
+				color: rgb(247, 132, 34);
+				background-color: rgba(247, 132, 34, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-rss"
+			></i> </a
+		>
+	</div>
+</div>
+
+        
+            
+            
+
+        
+            
+            
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/" style="font-size: 10px;">知识分享</a>
+    </div>
+    
+      <script>
+        var maxTagcloud = parseInt(17);
+        var tags_length = parseInt(1);
+        var tags_arr = [];
+        for(var i = 0; i < tags_length; i++){
+          tags_arr.push(i);
+        }
+        tags_arr.sort(function (l, r) {
+          return Math.random() > 0.5 ? -1 : 1;
+        });
+        tags_arr = tags_arr.slice(0, maxTagcloud < tags_length ? tags_length - maxTagcloud : 0);
+        for(var tag_i = 0; tag_i < tags_arr.length; tag_i++){
+          document.getElementById("randomtagcloud").children[tags_arr[tag_i]].style.display = 'none';
+        }
+      </script>
+    
+  </div>
+
+        
+            
+            
+            
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Archive</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a><span class="archive-list-count">7</span></li></ul>
     </div>
   </div>
-</header>
 
-      <div class="outer">
-        <section id="main"><article id="post-我的博客创建" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/05/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/" class="article-date">
-  <time class="dt-published" datetime="2023-05-11T10:31:13.000Z" itemprop="datePublished">2023-05-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+
+
         
-  
-    <h1 class="p-name article-title" itemprop="headline name">
-      我的博客创建
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/05/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/" data-id="clhizoykq0001xkttewv0g2gd" data-title="我的博客创建" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-  
-    <a href="/2023/05/11/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">May 2023</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
+            
+            
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Recent Posts</h3>
+    <div class="nexmoe-widget">
       <ul>
         
           <li>
-            <a href="/2023/05/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/">我的博客创建</a>
+            <a href="/2023/05/12/donate/">donate</a>
           </li>
         
           <li>
-            <a href="/2023/05/11/hello-world/">Hello World</a>
+            <a href="/2023/05/12/custom/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/05/12/archive/">文章归档</a>
+          </li>
+        
+          <li>
+            <a href="/2023/05/12/PY/">朋友</a>
+          </li>
+        
+          <li>
+            <a href="/2023/05/12/about/">关于</a>
           </li>
         
       </ul>
     </div>
   </div>
 
-  
-</aside>
         
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+            
+            <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-link">
+		<ul>
+        
+            <li>
+                <a href="https://xiaoshu.app/" target="_blank" >
+                    <img src="https://xsm.nexmoe.com/images/Infinite/Snipaste_2022-05-18_20-46-50.png" alt="小舒同学"></img>
+                    <p>小舒同学</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://nexmoe.com/" target="_blank" >
+                    <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="折影轻梦"></img>
+                    <p>折影轻梦</p>
+                </a>
+            </li>
+        
+		</ul>
     </div>
-  </div>
-</footer>
+</div>
+<style>
+.nexmoe-widget-wrap .nexmoe-link ul li a {
+    text-align : center;
+}
+.nexmoe-widget-wrap .nexmoe-link ul li a img {
+    max-width : 100%;
+}
+.nexmoe-widget-wrap .nexmoe-link ul li a p {
+    margin: 10px 0;
+}
+</style>
+
+        
+    </aside>
+    <div class="nexmoe-copyright">
+        &copy; 2023 Lingyu Yang
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2020018486号</a>
+<br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+<img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a>
 
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+    <div class="nexmoe-post">
+  <article>
     
+        <div class="nexmoe-post-cover"> 
+            <img src="https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png" alt="我的个人博客创建" loading="lazy">
+            <h1>我的个人博客创建</h1>
+        </div>
+    
+    
+    <div class="nexmoe-post-meta">
+    <div class="nexmoe-rainbow">
+        <a class="nexmoefont icon-calendar-fill">2023年05月11日</a>
+        
+        
+    </div>
+    
+    
+    
+    
+    
+</div>
 
+    <p>##引言<br>该文章是个人博客的创建的叙述,旨在为想要创建个人博客的友友们提供一些方法和思绪并且记录一下自己博客的搭建过程方便日后进行回顾</p>
+<p>####写博客的好处<br>有道是”学而不思则罔,思而不学则殆”,对于自己学到的东西如果没有经常回忆和复习就容易遗忘。所以通过博客作为载体,记录下平时学习到的东西,不仅可以帮助自己时常温习并进行技术上的一些沉淀,而且通过文章的传播也有助于知识的分享。</p>
+<p>####使用工具以及环境<br>这个教程使用的博客框架是hexo,博客文件托管在github,博客网站通过netlify生成,国内访问通过cloudflare进行cdn加速,使用该解决方案的原因是不需要使用云服务器,也不需要备案,只需要一个域名。</p>
+<p>##hexo博客框架<br>####介绍<br><img src="/images/5-12/2023-05-12-17-16-55.png"><br>hexo是一个基于nodejs的静态博客网站生成器，作者是来自台湾的Tommy Chen，为许多技术博客的博主所青睐，主要有如下的一些优点：</p>
+<ul>
+<li>支持<code>Markdown</code>语法，编辑简单，排版优美；</li>
+<li>能够快速生成静态html文件；</li>
+<li>部署容易，接口简单；</li>
+<li>社区主题、插件很多，遇到问题的时候能查到的参考材料也很多。</li>
+</ul>
+<p>####环境配置<br>搭建hexo需要依靠<strong>Nodejs</strong>的环境,可以到<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn">官网下载</a><br><img src="/images/5-12/2023-05-12-19-20-24.png"></p>
+<p>查看版本信息以及环境配置信息</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v <span class="comment"># 查看node版本信息</span></span><br><span class="line">npm -v <span class="comment"># 查看npm版本信息</span></span><br></pre></td></tr></table></figure>
 
-<script src="/js/jquery-3.4.1.min.js"></script>
+<p>能够正常看到版本信息则说明安装正常</p>
+<p>####生成博客<br>#####安装<br>有了npm包管理工具,便可以很方便安装hexo,只需要一行命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g <span class="comment"># 全局安装hexo命令行工具</span></span><br></pre></td></tr></table></figure>
+<p>其中-g参数表示全局安装，没有这个参数就只在当前目录下安装，建议全局安装。</p>
+<p>#####初始化<br>运行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init <span class="string">&quot;你的博客目录名称&quot;</span> <span class="comment"># 目录名称不含空格的时候双引号可以省略</span></span><br></pre></td></tr></table></figure>
 
+<p>然后进入博客目录：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="string">&quot;博客目录&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>安装博客需要的其他支持：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install <span class="comment"># 安装的依赖项在package.json文件的dependencies字段中可以看到</span></span><br></pre></td></tr></table></figure>
+
+<p>#####博客目录介绍<br>各部分的含义：</p>
+<ul>
+<li>_config.yml<ul>
+<li>为全局配置文件，网站的很多信息都在这里配置，比如说网站名称，副标题，描述，作者，语言，主题等等。具体可以参考官方文档：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration.html%E3%80%82">https://hexo.io/zh-cn/docs/configuration.html。</a></li>
+</ul>
+</li>
+<li>scaffolds<ul>
+<li>骨架文件，是生成新页面或者新博客的模版。可以根据需求编辑，当hexo生成新博客的时候，会用这里面的模版进行初始化。</li>
+</ul>
+</li>
+<li>source<ul>
+<li>这个文件夹下面存放的是网站的markdown源文件，里面有一个_post文件夹，所有的.md博客文件都会存放在这个文件夹下。现在，你应该能看到里面有一个hello-world.md文件。</li>
+</ul>
+</li>
+<li>themes<ul>
+<li>网站主题目录，hexo有非常丰富的主题支持，主题目录会存放在这个目录下面。<br>我们后续会以默认主题来演示，更多的主题参见：<a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a></li>
+</ul>
+</li>
+</ul>
+<p>#####生成新文章</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;test&quot;</span> <span class="comment"># 会在 source/_posts/ 目录下生成文件 ‘test.md’，打开编辑</span></span><br><span class="line">hexo generate        <span class="comment"># 生成静态HTML文件到 /public 文件夹中</span></span><br><span class="line">hexo server          <span class="comment"># 本地运行server服务预览，打开 http://localhost:4000 即可预览你的博客</span></span><br></pre></td></tr></table></figure>
+
+<p>本地预览效果：<br><img src="/images/5-12/2023-05-12-19-45-26.png"><br>这是hexo的默认主题，更多的主题可以从官网下载。</p>
+<p>更详细的hexo命令可以查看文档：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">https://hexo.io/zh-cn/docs/commands</a></p>
+<p>#####添加建站脚本<br>为了后续netlify建站方便，我们可以在package.json里面添加一个命令：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="comment">// ......</span></span><br><span class="line">    <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo generate&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;clean&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo clean&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;deploy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo deploy&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;server&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo server&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;netlify&quot;</span><span class="punctuation">:</span> <span class="string">&quot;npm run clean &amp;&amp; npm run build&quot;</span> <span class="comment">// 这一行为新加</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="comment">// ......</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>#####博客配置<br>这里简单提一下_config.yml的各个字段的含义：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Hexo</span>  <span class="comment"># 网站标题</span></span><br><span class="line"><span class="attr">subtitle:</span>    <span class="comment"># 网站副标题</span></span><br><span class="line"><span class="attr">description:</span> <span class="comment"># 网站描述</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">John</span> <span class="string">Doe</span>  <span class="comment"># 作者</span></span><br><span class="line"><span class="attr">language:</span>    <span class="comment"># 语言</span></span><br><span class="line"><span class="attr">timezone:</span>    <span class="comment"># 网站时区, Hexo默认使用您电脑的时区</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://yoursite.com/child&#x27;</span></span><br><span class="line"><span class="comment">## and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://yoursite.com</span>   <span class="comment"># 你的站点Url</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span>                    <span class="comment"># 站点的根目录</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span>   <span class="comment"># 文章的 永久链接 格式   </span></span><br><span class="line"><span class="attr">permalink_defaults:</span>        <span class="comment"># 永久链接中各部分的默认值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Directory   </span></span><br><span class="line"><span class="attr">source_dir:</span> <span class="string">source</span>     <span class="comment"># 资源文件夹，这个文件夹用来存放内容</span></span><br><span class="line"><span class="attr">public_dir:</span> <span class="string">public</span>     <span class="comment"># 公共文件夹，这个文件夹用于存放生成的站点文件。</span></span><br><span class="line"><span class="attr">tag_dir:</span> <span class="string">tags</span>          <span class="comment"># 标签文件夹     </span></span><br><span class="line"><span class="attr">archive_dir:</span> <span class="string">archives</span>  <span class="comment"># 归档文件夹</span></span><br><span class="line"><span class="attr">category_dir:</span> <span class="string">categories</span>     <span class="comment"># 分类文件夹</span></span><br><span class="line"><span class="attr">code_dir:</span> <span class="string">downloads/code</span>     <span class="comment"># Include code 文件夹</span></span><br><span class="line"><span class="attr">i18n_dir:</span> <span class="string">:lang</span>              <span class="comment"># 国际化（i18n）文件夹</span></span><br><span class="line"><span class="attr">skip_render:</span>                 <span class="comment"># 跳过指定文件的渲染，您可使用 glob 表达式来匹配路径。    </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Writing</span></span><br><span class="line"><span class="attr">new_post_name:</span> <span class="string">:title.md</span>  <span class="comment"># 新文章的文件名称</span></span><br><span class="line"><span class="attr">default_layout:</span> <span class="string">post</span>      <span class="comment"># 预设布局</span></span><br><span class="line"><span class="attr">titlecase:</span> <span class="literal">false</span>          <span class="comment"># 把标题转换为 title case</span></span><br><span class="line"><span class="attr">external_link:</span> <span class="literal">true</span>       <span class="comment"># 在新标签中打开链接</span></span><br><span class="line"><span class="attr">filename_case:</span> <span class="number">0</span>          <span class="comment"># 把文件名称转换为 (1) 小写或 (2) 大写</span></span><br><span class="line"><span class="attr">render_drafts:</span> <span class="literal">false</span>      <span class="comment"># 是否显示草稿</span></span><br><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">false</span>  <span class="comment"># 是否启动 Asset 文件夹</span></span><br><span class="line"><span class="attr">relative_link:</span> <span class="literal">false</span>      <span class="comment"># 把链接改为与根目录的相对位址    </span></span><br><span class="line"><span class="attr">future:</span> <span class="literal">true</span>              <span class="comment"># 显示未来的文章</span></span><br><span class="line"><span class="attr">highlight:</span>                <span class="comment"># 内容中代码块的设置    </span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>            <span class="comment"># 开启代码块高亮</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span>       <span class="comment"># 显示行数</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">false</span>      <span class="comment"># 如果未指定语言，则启用自动检测</span></span><br><span class="line">  <span class="attr">tab_replace:</span>            <span class="comment"># 用 n 个空格替换 tabs；如果值为空，则不会替换 tabs</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Category &amp; Tag</span></span><br><span class="line"><span class="attr">default_category:</span> <span class="string">uncategorized</span></span><br><span class="line"><span class="attr">category_map:</span>       <span class="comment"># 分类别名</span></span><br><span class="line"><span class="attr">tag_map:</span>            <span class="comment"># 标签别名</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Date / Time format</span></span><br><span class="line"><span class="comment">## Hexo uses Moment.js to parse and display date</span></span><br><span class="line"><span class="comment">## You can customize the date format as defined in</span></span><br><span class="line"><span class="comment">## http://momentjs.com/docs/#/displaying/format/</span></span><br><span class="line"><span class="attr">date_format:</span> <span class="string">YYYY-MM-DD</span>     <span class="comment"># 日期格式</span></span><br><span class="line"><span class="attr">time_format:</span> <span class="string">HH:mm:ss</span>       <span class="comment"># 时间格式    </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Pagination</span></span><br><span class="line"><span class="comment">## Set per_page to 0 to disable pagination</span></span><br><span class="line"><span class="attr">per_page:</span> <span class="number">10</span>           <span class="comment"># 分页数量</span></span><br><span class="line"><span class="attr">pagination_dir:</span> <span class="string">page</span>   <span class="comment"># 分页目录</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">landscape</span>   <span class="comment"># 主题名称</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="comment">#  部署部分的设置</span></span><br><span class="line"><span class="attr">deploy:</span>     </span><br><span class="line">  <span class="attr">type:</span> <span class="string">&#x27;&#x27;</span> <span class="comment"># 类型，常用的git </span></span><br></pre></td></tr></table></figure>
+
+<p>####Github代码托管<br><img src="/images/5-12/2023-05-12-19-49-42.png"><br>创建本地仓库，然后推送到远端服务器即可：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> <span class="string">&quot;博客目录&quot;</span></span><br><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;my blog first commit&quot;</span></span><br><span class="line">git remote add origin <span class="string">&quot;远端github仓库地址&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+
+<p>####Netlify建站<br>#####介绍<br>Netlify是一个国外的免费的提供静态网站部署服务的平台，能够将托管 GitHub，GitLab 等上的静态网站部署上线。至于我们为什么不使用<strong>github</strong>自带的<strong>gitpage</strong>，原因很简单，访问速度慢。</p>
+<p>#####建站步骤<br>1.首先注册并登陆<a target="_blank" rel="noopener" href="https://www.netlify.com/">Netlify</a></p>
+<ul>
+<li>这一步需要能够科学上网，因为这是一个国外的网站</li>
+<li>我们的博客在开启cloundflare的CDN加速之前，也只能通过科学上网的方式访问</li>
+</ul>
+<p>2.新建站点：<br>   <img src="/images/5-12/2023-05-12-19-59-08.png"></p>
+<p>3.连接github：<br><img src="/images/5-12/2023-05-12-20-00-38.png"></p>
+<p>4.选择刚刚上传的博客项目：<br><img src="/images/5-12/2023-05-12-20-01-04.png"></p>
+<p>5.一切默认，除了构建命令改成我们之前设置的npm run netlify：<br><img src="/images/5-12/2023-05-12-20-04-13.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这里BaseDirectory为空表示项目目录是仓库目录的根目录。</span><br></pre></td></tr></table></figure>
+
+<p>6.构建完成后我们就能够看到一个URL，打开网址就是我们的个人博客了<br><img src="/images/5-12/2023-05-12-20-05-32.png"></p>
+<p>可以根据提示进行进一步的设置，比如说设置一下二级域名（即netlify.app之前的域名）。</p>
+<p>在下面的演示中，我设置的netlify二级域名为blogbearsir，也就是说，我的个人博客站点的域名为blogbearsir.netlify.app。</p>
+
+    <p><img src="https://i.dawnlab.me/53a8c7cf3ad77a0f0a456ce2c6afe88a.png" loading="lazy"></p>
+
+  </article>
+
+  
+      
+    <div class="nexmoe-post-copyright">
+        <strong>Author：</strong>Lingyu Yang<br>
+        <strong>Link：</strong><a href="http://example.com/2023/05/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/" title="http:&#x2F;&#x2F;example.com&#x2F;2023&#x2F;05&#x2F;11&#x2F;%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2023&#x2F;05&#x2F;11&#x2F;%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+
+        
+    </div>
 
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+   
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/" rel="tag">知识分享</a>
+    
+</div>
+  
+  
+    <script async src="/js/copy-codeblock.js?v=1683895312882"></script>
+  
 
+  
+      <div class="nexmoe-post-footer">
+          请在你的配置文件中设置 slotComment
 
+      </div>
+  
+</div>
+</div>
+        <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="Back To Top" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+    </div>
+    <div id="nexmoe-search-space">
+	<div class="search-container">
+		<div class="search-header">
+			<div class="search-input-container">
+				<input
+					class="search-input"
+					type="text"
+					placeholder="Search"
+					oninput="sinput();"
+				/>
+			</div>
+			<a class="search-close" onclick="sclose();">×</a>
+		</div>
+		<div class="search-body"></div>
+	</div>
+</div>
 
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
 </body>
+
 </html>
